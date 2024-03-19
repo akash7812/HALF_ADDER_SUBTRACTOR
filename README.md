@@ -55,7 +55,7 @@ Figure -02 HALF Subtractor
 Developed by: AKASH KUMAR M.
 
 RegisterNumber:212223230010
-
+```
 module ex03(a,b,cy,sm,df,bo);
 input a,b;
 output sm,cy,df,bo;
@@ -64,7 +64,7 @@ and(cy,a,b);
 xor(df,a,b);
 and(bo,~a,b);
 endmodule
-
+```
 */
 **RTL Schematic**
 ![Screenshot 2024-03-19 093419](https://github.com/akash7812/HALF_ADDER_SUBTRACTOR/assets/146819826/6277f4d2-c3bd-4b3b-b85f-420b5c9177f6)
